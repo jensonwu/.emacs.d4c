@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/deps/cc-mode")
+(add-to-list 'load-path "~/.emacs.d4c/deps/cc-mode")
 (require 'cc-mode)
 ;c mode
 (setq-default c-basic-offset 4)
@@ -6,6 +6,8 @@
 (c-set-offset 'inline-open 0)
 (c-set-offset 'friend '-)
 (c-set-offset 'substatement-open 0)
+
+(add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
 ;gdb
 (add-hook 'gdb-mode-hook '(lambda ()

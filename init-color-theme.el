@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/deps/color-theme")
+(add-to-list 'load-path "~/.emacs.d4c/deps/color-theme")
 (require 'color-theme)
 (color-theme-initialize)
 ;(color-theme-select)

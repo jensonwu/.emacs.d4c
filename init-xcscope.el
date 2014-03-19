@@ -1,3 +1,3 @@
-(setq load-path (cons "~/.emacs.d/deps" load-path))
+(setq load-path (cons "~/.emacs.d4c/deps" load-path))
 
 (require 'xcscope)
