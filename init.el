@@ -5,7 +5,6 @@
 (load-library "init-config")
 (load-library "init-c")
 (load-library "init-xcscope")
-(load-library "init-ecb")
 (load-library "init-color-theme")
 (load-library "init-ido")
 (load-library "init-tabbar")
