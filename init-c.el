@@ -6,6 +6,7 @@
 (c-set-offset 'inline-open 0)
 (c-set-offset 'friend '-)
 (c-set-offset 'substatement-open 0)
+(c-toggle-auto-newline -1)
 
 (add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
